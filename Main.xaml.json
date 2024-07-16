@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_SBName",
+      "DisplayName": "in_SBName",
+      "Category": null,
+      "Tooltip": "name of storage bucket",
+      "Placeholder": "Deployment",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_SBZipPath",
+      "DisplayName": "in_SBZipPath",
+      "Category": null,
+      "Tooltip": "zip file name on storage bucket",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ZipName",
+      "DisplayName": "in_ZipName",
+      "Category": null,
+      "Tooltip": "zip file name to be used on local machine",
+      "Placeholder": "RPAFolders.txt",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_LocalFolder",
+      "DisplayName": "in_LocalFolder",
+      "Category": null,
+      "Tooltip": "local folder where the RPA project lives",
+      "Placeholder": "C:\\users\\public",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
